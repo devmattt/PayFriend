@@ -1,0 +1,123 @@
+/* Bootstrap Customisation */
+/* Bootstrap v4.6 */
+
+body {
+    background:#EFEFEF;
+    color:#222;
+}
+
+.btn-dark {
+    background:#151b4f;
+    border:0px;
+}
+
+.btn-primary {
+    background:#232f9b;
+    border:0px;
+}
+
+
+.jumbotron {
+    text-align:center;
+}
+
+.jumbotron, .card{
+    background:#FFF;
+    -webkit-box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.46); 
+    box-shadow: 0px 0px 8px -5px rgba(0,0,0,0.46);
+    border:1px solid #ccc;
+}
+
+.card .alert , .jumbotron .alert{
+    background:none;
+    border:0px;
+    padding:10px 0 0 0;
+}
+
+/* COPYandPAY Customisation */
+
+.wpwl-form-card {
+    min-width: 100% !important;
+    min-height: 100% !important;
+    text-align:left;
+}
+
+.wpwl-control {
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.wpwl-button-pay  {
+    background:#232f9b;
+    border:0px;
+    border-radius:5px;
+    padding:15px;
+    font-size:1em;
+}
+
+.wpwl-button-pay:hover  {
+    background:#3d70cf;
+}
+
+/* Custom */
+
+.top-margin {
+    margin-top:100px;
+}
+
+
+
+.logo {
+    text-align:center;
+    margin-bottom:50px;
+    background:#232f9b;
+    z-index:-999999999999999999999999999999999;
+    margin-left:auto;
+    margin-right:auto;
+}
+.logo img{
+    width:200px;
+    padding-top:100px;
+    padding-bottom:300px;
+}
+.logout {
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:9999999999999999999999999999999999999999999999999999999;
+}
+
+.logout .btn {
+    margin:0px;
+    border-radius:0px;
+    padding:15px;
+}
+
+.authLogo {
+    height:100px;
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.pullUp {
+    margin-top:-250px;
+}
+
+footer {
+    text-align:center;
+    padding:15px;
+    background:rgb(211, 211, 211);
+    margin-top:100px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+
+    .top-margin {
+        margin-top:20px;
+    }
+    
+
+
+}
