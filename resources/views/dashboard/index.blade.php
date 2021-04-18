@@ -15,7 +15,7 @@
 @if (session('checkoutId'))
 <div class="jumbotron">
   <h1 class="display-4">Pay £{{ session('amount') }}</h1>
-  <p class="lead"><strong>Referene:</strong> {{ session('merchantTransactionId') }} </p>
+  <p class="lead"><strong>Reference:</strong> {{ session('merchantTransactionId') }} </p>
   <hr class="my-4">
   <form action="{{ route('pay') }}" class="paymentWidgets" data-brands="VISA MASTER AMEX">
   </form>
